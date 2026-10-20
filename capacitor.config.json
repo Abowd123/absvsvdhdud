@@ -1,0 +1,16 @@
+{
+  "appId": "com.akllk.ghzipuploader",
+  "appName": "GitHub ZIP Uploader",
+  "webDir": "www",
+  "server": { "androidScheme": "https" },
+  "android": { "allowMixedContent": false, "captureInput": true },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 1200,
+      "backgroundColor": "#0d1117",
+      "showSpinner": false,
+      "androidScaleType": "CENTER_CROP"
+    },
+    "StatusBar": { "style": "DARK", "backgroundColor": "#0d1117" }
+  }
+}
