@@ -13,6 +13,8 @@ jobs:
       - uses: actions/setup-java@v4
         with: { distribution: temurin, java-version: 17 }
       - uses: android-actions/setup-android@v3
+        with:
+          packages: platform-tools
       - run: npm install
       - run: npm test
       - run: npm run vendor
